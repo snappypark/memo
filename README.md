@@ -1,4 +1,26 @@
 # memo
+git branch 전략
+
+git flow를 권장합니다. (필수는 아닙니다.)
+
+git flow 참고: 우린 Git-flow를 사용하고 있어요 | 우아한형제들 기술블로그 
+
+Git-flow에는 5가지 종류의 브랜치가 존재합니다. 항상 유지되는 메인 브랜치들(master, develop)과 일정 기간 동안만 유지되는 보조 브랜치들(feature, release, hotfix)이 있습니다.
+
+master : 제품으로 출시될 수 있는 브랜치
+
+develop : 다음 출시 버전을 개발하는 브랜치
+
+feature : 기능을 개발하는 브랜치
+
+release : 이번 출시 버전을 준비하는 브랜치
+
+hotfix : 출시 버전에서 발생한 버그를 수정 하는 브랜치
+
+bugfix : Jira bug issue를 수정 하는 브랜치
+
+
+
 
 [upload]
 
